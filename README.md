@@ -20,7 +20,7 @@ This is used in the demonstration of developments.
 
 Install Python Flask dependency
 
-    pip install flask
+    pip3 install -r requirements.txt
 
 - Copy app.py or download it from source repository
 
@@ -28,7 +28,7 @@ Install Python Flask dependency
 
 Start web server
 
-    FLASK_APP=app.py flask run --host=0.0.0.0
+    FLASK_APP=app.py flask run --host=0.0.0.0 --port=8080
     
 ## 4. Test
 
